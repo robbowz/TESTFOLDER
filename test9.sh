@@ -45,8 +45,6 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-show_result
-cleanup
 echo "All done!"
 cd ~/
 sudo rm /root/test7.sh
