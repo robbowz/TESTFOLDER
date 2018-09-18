@@ -12,36 +12,30 @@ sudo rm -rf /root/testfolder5
 sudo rm -rf /root/testfolder6
 echo "Done..."
 
-echo "Enter amount of folders to be installed, followed by [ENTER]: $NUMBER"
-read NUMBER OF FOLDERS
+echo "Enter amount of folders to be installed, followed by [ENTER]: $"
+read $NUMBER OF FOLDERS
 
-    mkdir /root/testfolder1
-
+    	mkdir /root/testfolder1
 if [ "$number" = "$number" ]; then
 	exit
-fi
-    mkdir /root/testfolder2
-
+	else
+    	mkdir /root/testfolder2
 if [ "$number" = "$number" ]; then
 	exit
-fi
-    mkdir /root/testfolder3
-
+	else
+    	mkdir /root/testfolder3
 if [ "$number" = "$number" ]; then
 	exit
-fi
-    mkdir /root/testfolder4
-
+	else
+    	mkdir /root/testfolder4
 if [ "$number" = "$number" ]; then
 	exit
-fi
-mkdir /root/testfolder5
-
+	else
+    	mkdir /root/testfolder5
 if [ "$number" = "$number" ]; then
 	exit
-fi
-mkdir /root/testfolder6
-
+	else
+    	mkdir /root/testfolder6
 if [ "$number" = "$number" ]; then
 	exit
 fi
