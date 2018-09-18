@@ -1,17 +1,17 @@
 # Test folder script by Robbowz
 VERSION="0.2"
 
-function print_greeting()
+print_greeting()
 {
 	echo -e "[0;35m Test folder script[0m\n"
 }
 
-function print_info()
+print_info()
 {
 	echo -e "[0;35m Install script version:[0m ${VERSION}"
     }
     
- function remove_old_files()
+remove_old_files()
 {
 	echo "Removing old files..."
 	sudo rm -rf /root/testfolder1
