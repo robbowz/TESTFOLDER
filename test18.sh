@@ -64,12 +64,5 @@ sudo mkdir /root/testfolder6
 fi
 }
 
-{
-if [ "$number" = "$number" ]; then
-	echo "$number folders created"
-	exit 0
-fi
-}
-
 echo "All done!"
 cd ~/
