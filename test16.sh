@@ -14,7 +14,7 @@ sudo rm -rf /root/testfolder6
 echo "Done..."
 
 echo "Enter amount of folders to be installed, followed by [ENTER]: "
-read NUMBER
+read 'Amount of folders: ' number
 
 sudo mkdir /root/testfolder1
 if [ "$number" = "$number" ]; then
