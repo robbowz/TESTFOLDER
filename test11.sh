@@ -16,35 +16,34 @@ echo "Enter amount of folders to be installed, followed by [ENTER]: $"
 read $NUMBER OF FOLDERS
 
     	mkdir /root/testfolder1
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder2
 fi
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder3
 fi
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder4
 fi
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder5
 fi
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder6
 fi
-if [ "$number" -ge "$number" ]; then
+if [ "$number" == "$number" ]; then
 	exit
 fi
 
 echo "All done!"
 cd ~/
-sudo rm /root/test7.sh
