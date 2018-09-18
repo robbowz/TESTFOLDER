@@ -20,22 +20,27 @@ if [ "$number" = "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder2
+fi
 if [ "$number" = "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder3
+fi
 if [ "$number" = "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder4
+fi
 if [ "$number" = "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder5
+fi
 if [ "$number" = "$number" ]; then
 	exit
 	else
     	mkdir /root/testfolder6
+fi
 if [ "$number" = "$number" ]; then
 	exit
 fi
