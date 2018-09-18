@@ -14,48 +14,62 @@ sudo rm -rf /root/testfolder6
 echo "Done..."
 
 echo "Enter amount of folders to be installed, followed by [ENTER]: "
-read 'Amount of folders: ' number
+read number
 
-sudo mkdir /root/testfolder1
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
-	else
-	continue
+sudo mkdir /root/testfolder1
+fi
+}
+
+{
+if [ "$number" = "$number" ]; then
+	echo "$number folders created"
+	exit 0
 sudo mkdir /root/testfolder2
 fi
+}
+
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
-	else
-	continue
 sudo mkdir /root/testfolder3
 fi
+}
+
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
-	else
-	continue
 sudo mkdir /root/testfolder4
 fi
+}
+
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
-	else
-	continue
 sudo mkdir /root/testfolder5
 fi
+}
+
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
-	else
-	continue
 sudo mkdir /root/testfolder6
 fi
+}
+
+{
 if [ "$number" = "$number" ]; then
 	echo "$number folders created"
 	exit 0
 fi
+}
 
 echo "All done!"
 cd ~/
