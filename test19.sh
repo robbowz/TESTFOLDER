@@ -16,51 +16,64 @@ echo "Done..."
 echo "Enter amount of folders to be installed, followed by [ENTER]: "
 read number
 
-{
-if [ "$number" = "$number" ]; then
-	echo "$number folders created"
-	exit 0
 sudo mkdir /root/testfolder1
+{
+if [ "$number" = "$number" ]
+	then
+	echo "$number folders created"
+	exit 0
+	else
+	sudo mkdir /root/testfolder2
 fi
 }
 
 {
-if [ "$number" = "$number" ]; then
+if [ "$number" = "$number" ]
+	then
 	echo "$number folders created"
 	exit 0
-sudo mkdir /root/testfolder2
+	else
+	sudo mkdir /root/testfolder3
 fi
 }
 
 {
-if [ "$number" = "$number" ]; then
+if [ "$number" = "$number" ]
+	then
 	echo "$number folders created"
 	exit 0
-sudo mkdir /root/testfolder3
+	else
+	sudo mkdir /root/testfolder4
 fi
 }
 
 {
-if [ "$number" = "$number" ]; then
+if [ "$number" = "$number" ]
+	then
 	echo "$number folders created"
 	exit 0
-sudo mkdir /root/testfolder4
+	else
+	sudo mkdir /root/testfolder5
 fi
 }
 
 {
-if [ "$number" = "$number" ]; then
+if [ "$number" = "$number" ]
+	then
 	echo "$number folders created"
 	exit 0
-sudo mkdir /root/testfolder5
+	else
+	sudo mkdir /root/testfolder6
 fi
 }
 
 {
-if [ "$number" = "$number" ]; then
+if [ "$number" = "$number" ]
+	then
 	echo "$number folders created"
 	exit 0
-sudo mkdir /root/testfolder6
+	else
+	sudo mkdir /root/testfolder7
 fi
 }
 
