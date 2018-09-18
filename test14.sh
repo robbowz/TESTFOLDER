@@ -16,34 +16,39 @@ echo "Done..."
 echo "Enter amount of folders to be installed, followed by [ENTER]: $"
 read $NUMBER OF FOLDERS
 
-    	mkdir /root/testfolder1
+sudo mkdir /root/testfolder1
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 	else
-    	mkdir /root/testfolder2
+	continue
+sudo mkdir /root/testfolder2
 fi
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 	else
-    	mkdir /root/testfolder3
+	continue
+sudo mkdir /root/testfolder3
 fi
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 	else
-    	mkdir /root/testfolder4
+	continue
+sudo mkdir /root/testfolder4
 fi
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 	else
-    	mkdir /root/testfolder5
+	continue
+sudo mkdir /root/testfolder5
 fi
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 	else
-    	mkdir /root/testfolder6
+	continue
+sudo mkdir /root/testfolder6
 fi
 if [ "$number" = "$number" ]; then
-	exit
+	echo "$number folders created" && exit 0
 fi
 
 echo "All done!"
