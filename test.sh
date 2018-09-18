@@ -1,8 +1,5 @@
 # Test folder script by Robbowz
-VERSION="0.1"
-
-# Useful variables
-declare -r SCRIPT_LOGFILE="/tmp/test_node_${DATE_STAMP}_out.log"
+VERSION="0.2"
 
 function print_greeting() {
 	echo -e "[0;35m Test folder script[0m\n"
@@ -10,7 +7,6 @@ function print_greeting() {
 
 function print_info() {
 	echo -e "[0;35m Install script version:[0m ${VERSION}"
-	echo -e "[0;35m Logfile:[0m ${SCRIPT_LOGFILE}"
     }
 
     function remove_old_files() {
@@ -24,14 +20,17 @@ function print_info() {
 	echo "Done..."
 }
 
+
     function add_number() {
     echo "Enter amount of folders to be installed, followed by [ENTER]: $NUMBER"
 	read NUMBER OF FOLDERS
 }
 
+
     function add_folder() {
     mkdir /root/testfolder1
 }
+
 
 if [ "$number" = "$number" ]; then
 	exit
@@ -40,6 +39,7 @@ fi
     function add_folder() {
     mkdir /root/testfolder2
 }
+
 
 if [ "$number" = "$number" ]; then
 	exit
@@ -57,6 +57,7 @@ fi
     mkdir /root/testfolder4
 }
 
+
 if [ "$number" = "$number" ]; then
 	exit
 fi
@@ -64,6 +65,7 @@ fi
     function add_folder() {
     mkdir /root/testfolder5
 }
+
 
 if [ "$number" = "$number" ]; then
 	exit
@@ -73,9 +75,11 @@ fi
     mkdir /root/testfolder6
 }
 
+
 if [ "$number" = "$number" ]; then
 	exit
 fi
+
 
 # main routine
 print_greeting
