@@ -1,3 +1,4 @@
+#!/bin/bash
 # Test folder script by Robbowz
 VERSION="0.7"
 
