@@ -18,7 +18,7 @@ read number
 
 sudo mkdir /root/testfolder1
 {
-if [ $number = true ]
+if [ $number = 1 ]
 	then
 	echo "$number folders created"
 	exit 0
@@ -28,7 +28,7 @@ fi
 }
 
 {
-if [ $number = true ]
+if [ $number = 2 ]
 	then
 	echo "$number folders created"
 	exit 0
@@ -38,7 +38,7 @@ fi
 }
 
 {
-if [ $number = true ]
+if [ $number = 3 ]
 	then
 	echo "$number folders created"
 	exit 0
@@ -48,7 +48,7 @@ fi
 }
 
 {
-if [ $number = true ]
+if [ $number = 4 ]
 	then
 	echo "$number folders created"
 	exit 0
@@ -58,7 +58,7 @@ fi
 }
 
 {
-if [ $number = true ]
+if [ $number = 5 ]
 	then
 	echo "$number folders created"
 	exit 0
@@ -68,12 +68,10 @@ fi
 }
 
 {
-if [ $number = true ]
+if [ $number = 6 ]
 	then
 	echo "$number folders created"
 	exit 0
-	else
-	sudo mkdir /root/testfolder7
 fi
 }
 
