@@ -11,7 +11,7 @@ function print_info
 	echo -e "[0;35m Install script version:[0m ${VERSION}"
     }
     
-function remove_old_files()
+function remove_old_files
 {
 	echo "Removing old files..."
 	sudo rm -rf /root/testfolder1
@@ -24,14 +24,14 @@ function remove_old_files()
 }
 
 
-    function add_number()
+    function add_number
 {
     echo "Enter amount of folders to be installed, followed by [ENTER]: $NUMBER"
 	read NUMBER OF FOLDERS
 }
 
 
-    function add_folder()
+    function add_folder
 {
     mkdir /root/testfolder1
 }
@@ -41,7 +41,7 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-    function add_folder()
+    function add_folder
 {
     mkdir /root/testfolder2
 }
@@ -51,7 +51,8 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-    function add_folder() {
+    function add_folder
+{
     mkdir /root/testfolder3
 }
 
@@ -59,7 +60,8 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-    function add_folder() {
+    function add_folder
+{
     mkdir /root/testfolder4
 }
 
@@ -68,7 +70,8 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-    function add_folder() {
+    function add_folder
+{
     mkdir /root/testfolder5
 }
 
@@ -77,7 +80,8 @@ if [ "$number" = "$number" ]; then
 	exit
 fi
 
-    function add_folder() {
+    function add_folder
+{
     mkdir /root/testfolder6
 }
 
